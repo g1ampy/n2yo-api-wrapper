@@ -18,9 +18,9 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
+[![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
 [![PyPi][pypi-shield]][pypi-url]
 [![MIT][license-shield]][license-url]
@@ -209,7 +209,7 @@ Distributed under the MIT. See `LICENSE.txt` for more information.
 [pypi-shield]: https://img.shields.io/pypi/v/n2yo-api-wrapper
 [pypi-url]: https://pypi.org/project/n2yo-api-wrapper/
 [license-shield]: https://img.shields.io/github/license/g1ampy/n2yo-api-wrapper.svg
-[license-url]: https://github.com/g1ampy/n2yo-api-wrapper/blob/master/LICENSE.txt
+[license-url]: https://github.com/g1ampy/n2yo-api-wrapper/blob/stable/LICENSE
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
