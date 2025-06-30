@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as readme_file:
 setup(
     name="n2yo-api-wrapper",
     version="0.0.1",
-    description="Unofficial Wrapper for N2YO API",
+    description="Unofficial Wrapper for N2YO.com API",
     author="Giampy",
     author_email="g1ampy@proton.me",
     packages=find_packages(),
