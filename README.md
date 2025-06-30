@@ -209,7 +209,7 @@ Distributed under the MIT. See `LICENSE.txt` for more information.
 [pypi-shield]: https://img.shields.io/pypi/v/n2yo-api-wrapper
 [pypi-url]: https://pypi.org/project/n2yo-api-wrapper/
 [license-shield]: https://img.shields.io/github/license/g1ampy/n2yo-api-wrapper.svg
-[license-url]: https://github.com/g1ampy/n2yo-api-wrapper/blob/stable/LICENSE
+[license-url]: https://github.com/g1ampy/n2yo-api-wrapper/blob/stable/LICENSE.txt
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
