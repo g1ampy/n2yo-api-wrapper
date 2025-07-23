@@ -2,7 +2,7 @@ import logging, requests
 from dacite import from_dict
 
 from .models.search import TleData, SatellitePositionsData, VisualPassesData, RadioPassesData, SatellitesAboveData
-from .exceptions import InvalidApiKey
+from .exceptions import N2YOInvalidKeyException
 
 
 # Set up logging - datetime format, level, and format
@@ -55,7 +55,7 @@ class n2yo:
         data = response.json()
 
         if data.get("error") == "Invalid API Key!":
-            raise InvalidApiKey("The API key is invalid or missing.")
+            raise N2YOInvalidKeyException("The API key is invalid or missing.")
     
         result = from_dict(data_class=TleData, data=data)
         return result
@@ -101,7 +101,7 @@ class n2yo:
         data = response.json()
         
         if data.get("error") == "Invalid API Key!":
-            raise InvalidApiKey("The API key is invalid or missing.")
+            raise N2YOInvalidKeyException("The API key is invalid or missing.")
         
         result = from_dict(data_class=SatellitePositionsData, data=data)
         return result
@@ -157,7 +157,7 @@ class n2yo:
         data = response.json()
 
         if data.get("error") == "Invalid API Key!":
-            raise InvalidApiKey("The API key is invalid or missing.")
+            raise N2YOInvalidKeyException("The API key is invalid or missing.")
     
         result = from_dict(data_class=VisualPassesData, data=data)
         return result
@@ -209,7 +209,7 @@ class n2yo:
         data = response.json()
 
         if data.get("error") == "Invalid API Key!":
-            raise InvalidApiKey("The API key is invalid or missing.")
+            raise N2YOInvalidKeyException("The API key is invalid or missing.")
         
         result = from_dict(data_class=RadioPassesData, data=data)
         return result
@@ -257,7 +257,7 @@ class n2yo:
         data = response.json()
 
         if data.get("error") == "Invalid API Key!":
-            raise InvalidApiKey("The API key is invalid or missing.")
+            raise N2YOInvalidKeyException("The API key is invalid or missing.")
         
         result = from_dict(data_class=SatellitesAboveData, data=data)
 
